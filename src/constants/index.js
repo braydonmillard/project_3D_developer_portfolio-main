@@ -17,6 +17,7 @@ import {
   docker,
   meta,
   starbucks,
+  phri,
   tesla,
   shopify,
   carrent,
@@ -96,10 +97,11 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+  /*
   {
     name: "Three JS",
     icon: threejs,
-  },
+  },*/
   {
     name: "git",
     icon: git,
@@ -123,6 +125,19 @@ const experiences = [
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Solutions Developer - Student",
+    company_name: "Population Health Research Institute",
+    icon: phri,
+    iconBg: "#383E56",
+    date: "September 2019 - January 2020",
+    points: [
+      "Developing and maintaining web applications using ASP.NET and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -217,6 +232,27 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Full Stack MERN Admin Dashboard",
+    description:
+      "Dashboard web app that allows users to track various data in the form of tables and charts. Additional features include Light and Dark Mode, aggregate calls from MongoDB, and calendar integration.      ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/braydonmillard/react-dashboard",
   },
   {
     name: "Job IT",
