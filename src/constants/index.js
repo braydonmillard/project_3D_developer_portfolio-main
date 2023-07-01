@@ -46,10 +46,10 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
+  /*{
     title: "React Native Developer",
     icon: mobile,
-  },
+  },*/
   {
     title: "Backend Developer",
     icon: backend,
@@ -117,7 +117,7 @@ const technologies = [
 ];
 
 const experiences = [
-  {
+  /*{
     title: "React.js Developer",
     company_name: "Starbucks",
     icon: starbucks,
@@ -129,7 +129,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  },*/
   {
     title: "Solutions Developer - Student",
     company_name: "Population Health Research Institute",
@@ -138,11 +138,36 @@ const experiences = [
     date: "September 2019 - January 2020",
     points: [
       "Developing and maintaining web applications using ASP.NET and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create a high-quality clinical trial web app.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Mobile Developer - Student",
+    company_name: "Ppalli Mobile",
+    icon: mobile,
+    iconBg: "#E6DEDD",
+    date: "January 2021 - April 2021",
+    points: [
+      "Developing a mobile app using Flutter with a Firebase backend.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-platform compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Freelance Developer",
+    company_name: "Self Employed",
+    icon: web,
+    iconBg: "#E6DEDD",
+    date: "April 2021 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Working closely with clients to understand their vision and create a unique, eye-catching website that aligns with their goals.",
+      "Implementing responsive design and ensuring cross-browser compatibility, as well as optimizing to improve search engine visibility.",
+    ],
+  } /*
   {
     title: "React Native Developer",
     company_name: "Tesla",
@@ -181,7 +206,8 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  },*/,
+  ,
 ];
 
 const testimonials = [
@@ -252,6 +278,7 @@ const projects = [
       },
     ],
     image: carrent,
+    image_demo_link: "https://google.com",
     source_code_link: "https://github.com/braydonmillard/react-dashboard",
   },
   {
